@@ -1,0 +1,59 @@
+html, body {
+  background-color: lightblue;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.main{
+  background-color: #dedede;
+}
+
+.center {
+  text-align: center;
+}
+
+.nav{
+  line-height:30px;
+  padding: 2px;
+}
+
+.info{
+  background-color: lightgreen;
+  /*background-clip: content-box; /*only colours the content*/
+  padding: 100px;
+  border-style: solid; /*to create diffrentiation when resizing blocks*/
+  border-color: #dedede;
+  border-width: thick;
+}
+
+.pad{
+  padding: 50px;
+}
+
+#header{
+  background-color: #8d8d8d;
+}
+
+#footer{
+  background-color: #8d8d8d;
+}
+
+#headerTitle{
+  font-weight: bolder;
+  font-style: italic;
+  font-family: monospace;
+}
+
+#nav {
+  font-style: italic;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.carousel, .carousel-inner, .carousel-control {
+  height: inherit;
+  width: 60%;
+  margin: auto; /*margins horisontally within container*/
+  /*use %'s to keep bootstrap properties & resize images*/
+  /*need to resize width to change height (as transformation fixed)*/
+}
